@@ -156,10 +156,9 @@ main {
 .About_me {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    gap: 4rem;
     justify-content: center;
     padding: 20px 60px;   
-    
 }
 
 .sobre_titulo {
@@ -241,6 +240,59 @@ main {
    padding-right: 15px;
 }
 
+
+/**************************SKILLS*************************/
+
+.skills {
+    margin: 20px 0px;
+    background-color: #111;
+    color: #fff;
+    padding: 3rem 4rem;
+    text-align: center;
+}
+
+.sobre_skills h1 {
+    font-size: 2.5rem;
+    color: #b9125a;
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+
+.sobre_skills p {
+    color: #707070;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.skills_cards {
+    display: flex;
+    gap: 3rem;
+}
+
+.skills_cards img {
+    width: 10rem;
+    border: #b9125a 2px solid;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 3rem 0 1.5rem 0;
+}
+
+.skills_cards h2 {
+   text-transform: uppercase;
+   margin-bottom: 0.5rem;
+}
+
+.skills_cards p {
+    text-align: unset;
+}
+
+
+
+
+
+
 /************************ANIMATION****************************/
 
 @keyframes sobre_conteudo {
@@ -253,15 +305,7 @@ main {
     }
 }
 
-@keyframes sobre_conteudo_img {
-    from {
-        transition: 0.10;
-        transform: translate3d(-60px, 0, 0);
-    }
-    to {
-        transform: translate3d(0, 0, 0) ;
-    }
-}
+
 
 /**************************************HOVER************************************************/
 
@@ -273,6 +317,12 @@ main {
 .section_div div a:hover {
     color: #b9125a;
     border: solid #fff 2px;
+}
+
+.skills_cards img:hover {
+    padding: 1.5rem;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 

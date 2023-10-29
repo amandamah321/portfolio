@@ -13,14 +13,14 @@
         <nav>
             <ul class="navegacao_primaria">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="resume">Resume</a></li>
-                <li><a href="#portifolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#About_me">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
         </nav>
     </header>
 
-    <section aria-label="seção curriculo Amanda" class="section_div">
+    <section aria-label="seção curriculo Amanda" class="section_div" id="home">
         <div>
             <h2 class="hello_world">Hello World !</h2>
             <h2 class="digitando">Future Web Developer e Software Engineer</h2>
@@ -28,18 +28,18 @@
             <a href="https://amandamah321.github.io/cv/" target="_blank">View CV</a>
         </div>
         <img src="/assets/me.png" alt="emoji me representando">
-    </section>
+    </section><br>
     
     <div id="coding_photo"></div>
 
     <main>
-        <article class="About_me" aria-label="Seção sobre o desenvolvedor">
+        <article class="About_me" id="About_me" aria-label="Seção sobre o desenvolvedor">
             <div class="sobre_titulo">
                 <h1 class="digitando">About me</h1>
                 <p>Profissional Profile - There is all about me</p>
             </div>
             
-            <img src="/assets/me.png" alt="emoji me representando">
+            <img class="sobre_conteudo_img" src="/assets/me.png" alt="emoji me representando">
             <div class="sobre_conteudo">
                 <div class="sobre_texto">
                     <h1 >I'm Dev - Amanda Maia</h1>
@@ -59,8 +59,46 @@
                     <p><i class="fa-solid fa-paperclip" style="color: #b9125a;"></i>Email: amanda_mah321@hotmail.com</p>
                 </div>
             </div>
+            <br>
         </article>
     </main>
+
+    <section class="skills" id="skills">
+        <div class="sobre_skills">
+            <h1 class="digitando">My Skills</h1>
+            <p>I have experience with these technologies</p>
+        </div>
+        <div class="skills_cards">
+            <div>
+                <div>
+                    <img class="logo_languages" src="/assets/html.png" alt="logo do html5">
+                    <h2>html 5</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate accusantium ab mollitia consectetur necessitatibus iusto molestiae suscipit culpa sapiente, in sit ut doloribus. Aliquam, nemo minus recusandae quaerat illum inventore.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img class="logo_languages" src="/assets/css.png" alt="logo do css3">
+                    <h2>css 3</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate accusantium ab mollitia consectetur necessitatibus iusto molestiae suscipit culpa sapiente, in sit ut doloribus. Aliquam, nemo minus recusandae quaerat illum inventore.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img class="logo_languages" src="/assets/js.png" alt="logo do javascript">
+                    <h2>javascript</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate accusantium ab mollitia consectetur necessitatibus iusto molestiae suscipit culpa sapiente, in sit ut doloribus. Aliquam, nemo minus recusandae quaerat illum inventore.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     
     <script src="script.js"></script>
 </body>
