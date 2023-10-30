@@ -288,8 +288,34 @@ main {
     text-align: unset;
 }
 
+/****************FOOTER****************/
 
+footer {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins';
+    font-weight: 100;
+}
 
+footer ul {
+    display: flex;
+    width: inherit;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+footer ul li a {
+    color: #f7f7f7;
+}
+
+.icons {
+    display: flex;
+    gap: 1rem;
+}
 
 
 
@@ -311,6 +337,10 @@ main {
 
 
 .navegacao_primaria li a:hover {
+    color: #b9125a;
+}
+
+footer ul li a:hover {
     color: #b9125a;
 }
 
